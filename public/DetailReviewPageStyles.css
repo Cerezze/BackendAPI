@@ -1,0 +1,133 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 55px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.HeaderList li{
+    float: left;
+    margin-top: 17px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.CreateReviewsContainer{
+    /*background-color: lightgray;*/
+}
+
+.CreateReviewTitle{
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.CreateReviewPanel{
+    /*background-color: gray;
+    height: 120px;*/
+    width: 550px;
+    margin-left: 35px;
+}
+
+.CreateReviewInfoHead{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    margin-bottom: 30px;
+}
+
+.EleBox{
+    margin-bottom: 30px;
+}
+
+.subEleBox{
+    /*background-color: grey;*/
+    margin-left: 30px;
+}
+.buttonSet button{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+.OverallScore{
+    border-bottom: 2px solid black;
+}
+
+.OverallScorePanel{
+    background-color: black;
+    color: white;
+    width: 525px;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.Score{
+    font-size: 75px;
+    float: left;
+    margin-top: 20px;
+}
+
+.ScoreText{
+    float: right;
+    width: 375px;
+}
+
+.CommentInputSection{
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+.CommentInputSection textarea{
+    resize: none;
+    display: block;
+}
+
+.CommentInputSection button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 115px;
+}
+
+.CommentInfoHead{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.TimeDate{
+    float: right;
+    margin-top: -57px;
+}
+.CommentBody{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    clear: right;
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}

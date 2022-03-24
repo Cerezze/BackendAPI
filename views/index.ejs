@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+
+        <link rel = "stylesheet" href = "ReviewPageStyles.css">
+    </head>
+    <body>
+        <div class = "MainDiv" >
+            <div class = "Header" >
+                <ul class = "HeaderList"  >
+                    <li class = "Home"  >
+                        <a href = "/">REVIEWS</a>
+                    </li>
+                    <li class = "Create Review" >
+                        <a href = "/CreateReview">CREATE REVIEW</a>
+                    </li>
+                    <li class = "Login" >
+                        LOGIN
+                    </li>
+                </ul>
+            </div>
+            <div class = "ReviewsContainer">
+                <div class = "ReviewTitle">
+                    <h2>REVIEWS</h2>
+                </div>
+                <div class = "ReviewLayout">
+                    <% if (list.length > 0){ %>
+                        <% list.forEach(i =>{ %>
+                            <a href = "/DetailReviewsPage">
+                                <div class = "ReviewPanel">
+                                    <div class = "ReviewInfoHead">
+                                        <div class = "NameOfReview">
+                                            <h3 class = "NameOfReviewBlurb"><%= i.review %></h3>
+                                        </div>
+                                        <div class = "TimeDate">
+                                            <h3 class = "TimeDateBlurb"><%= i.timedate %></h3>
+                                        </div>
+                                    </div>
+                                    <div class = "ReviewBody">
+                                        <%= i.blurb %>
+                                    </div>
+                                    <div class = "ReviewInfoFoot">
+                                        <div class = "PosterName">
+                                            <h3 class = "PosterNameBlurb"><%= i.poster %></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        <% }) %>
+                    <% } %>
+                </div>
+            </div>
+    </body>
+</html>

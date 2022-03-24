@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+
+        <link rel = "stylesheet" href = "CreateReview.css">
+    </head>
+    <body>
+        <div class = "MainDiv" >
+            <div class = "Header" >
+                <ul class = "HeaderList"  >
+                    <li class = "Home"  >
+                        <a href = "/">REVIEWS</a>
+                    </li>
+                    <li class = "Create Review" >
+                        <a href = "/CreateReview">CREATE REVIEW</a>
+                    </li>
+                    <li class = "Login" >
+                        LOGIN
+                    </li>
+                </ul>
+            </div>
+            <div class = "CreateReviewsContainer">
+                <div class = "CreateReviewTitle">
+                    <h2>CREATE REVIEWS</h2>
+                </div>
+                <form action = "/CreateReview" method = "post">
+                        <!--<div className = "InputPoster">
+                            <h3>Poster</h3>
+                            <input />
+                        </div>
+                        <div className = "NameOfReview">
+                            <h3>Name of Review</h3>
+                            <input />
+                        </div>
+                        <div className = "TimeDate">
+                            <h3>Time and Date</h3>
+                            <input />
+                        </div>
+                        <div className = "Blurb">
+                            <h3>Blurb</h3>
+                            <input />
+                        </div>
+                        <div className = "Score">
+                            <h1>84</h1>
+                        </div>-->
+                        <label for="poster">Poster:</label>
+                        <input type="text" id="poster" name="poster"><br><br>
+                        <label for="blurb">Blurb:</label>
+                        <input type="text" id="blurb" name="blurb"><br><br>
+                        <label for="timedate">Time/Date:</label>
+                        <input type="text" id="timedate" name="timedate"><br><br>
+                        <label for="review">Review:</label>
+                        <input type="text" id="review" name="review"><br><br>
+                        <input type = "submit" value = "Submit Review">
+                </form>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 55px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.HeaderList li{
+    float: left;
+    margin-top: 17px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.ReviewsContainer{
+    /*background-color: lightgray;*/
+}
+
+.ReviewTitle{
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.ReviewPanel{
+    /*background-color: gray;
+    height: 120px;*/
+    width: 550px;
+    margin-left: 35px;
+}
+
+.ReviewInfoHead{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+.TimeDate{
+    float: right;
+    margin-top: -57px;
+}
+.ReviewBody{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    clear: right;
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+}
+
+.ReviewInfoFoot{
+    /*background-color: lightgray;
+    height: 30px;
+    margin: 1px;*/
+    width: 500px;
+    margin: auto;
+}
+
+.PosterName{
+    float: right;
+    margin-top: -57px;
+}

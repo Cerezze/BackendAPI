@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel = "stylesheet" href = "DetailReviewPageStyles.css">
+    </head>
+    <body>
+        <div class = "MainDiv" >
+            <div class = "Header" >
+                <ul class = "HeaderList"  >
+                    <li class = "Home"  >
+                        <a href = "/">REVIEWS</a>
+                    </li>
+                    <li class = "Create Review" >
+                        <a href = "CreateReviewsPage.html">CREATE REVIEW</a>
+                    </li>
+                    <li class = "Login" >
+                        LOGIN
+                    </li>
+                </ul>
+            </div>
+            <div class = "CreateReviewsContainer">
+                <% list.forEach(i => { %>
+                <div class = "CreateReviewTitle">
+                    <h2>NAME OF REVIEW</h2>
+                </div>
+                <div class = "CreateReviewPanel">
+                    <div class = "CreateReviewInfoHead">
+                        <div class = "EleBox">
+                            <div class = "Element">
+                                <h3>Element 1</h3>
+                            </div>
+                            <div class = "Rinput">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <!--<div class = "subEleBox">
+                                <div class = "SubElement">
+                                    <h3>Sub Element 1</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </li>
+                                </ul>
+                                <div class = "SubElement">
+                                    <h3>Sub Element 2</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </li>                                
+                                </ul>
+                            </div>-->
+                        <% }) %>
+                    <div class = "OverallScore">
+                        <div class = "OverallScorePanel">
+                            <p class = "Score">
+                                100
+                            </p>
+                            <p class = "ScoreText">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "CommentInputSection">
+                        <h2>Comments</h2>
+                        <textarea class = "OSInput"></textarea>
+                        <button>Submit</button>  
+                    </div>
+                    <div class = "CommentLayoutSection">
+                            <div class = "CommentInfoHead">
+                                <div class = "NameOfComment">
+                                    <h3>Commenter</h3>
+                                </div>
+                                <div class = "TimeDate">
+                                    <h3>Time Posted</h3>
+                                </div>
+                            </div>
+                            <div class = "CommentBody">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

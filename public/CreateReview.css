@@ -1,0 +1,32 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 55px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.HeaderList li{
+    float: left;
+    margin-top: 17px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.CreateReviewsContainer{
+    margin-left: 40px;
+}
