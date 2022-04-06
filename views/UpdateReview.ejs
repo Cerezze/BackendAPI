@@ -4,7 +4,7 @@
         <title>
         </title>
 
-        <link rel = "stylesheet" href = "CreateReview.css">
+        <link rel = "stylesheet" href = "/UpdateReview.css">
     </head>
     <body>
         <div class = "MainDiv" >
@@ -23,9 +23,9 @@
             </div>
             <div class = "CreateReviewsContainer">
                 <div class = "CreateReviewTitle">
-                    <h2>CREATE REVIEWS</h2>
+                    <h2>EDIT <%= review.review %> Review</h2>
                 </div>
-                <form action = "/CreateReview" method = "post">
+                <form action = "/UpdateReview/<%= review.id %>" method = "post">
                         <label for="poster">Poster:</label>
                         <input type="text" id="poster" name="poster"><br><br>
                         <label for="blurb">Blurb:</label>
@@ -34,7 +34,7 @@
                         <input type="text" id="timedate" name="timedate"><br><br>
                         <label for="review">Review:</label>
                         <input type="text" id="review" name="review"><br><br>
-                        <input type = "submit" value = "Submit Review">
+                        <input type = "submit" value = "Submit Edit">
                 </form>
             </div>
     </body>

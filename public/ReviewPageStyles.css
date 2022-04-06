@@ -29,6 +29,7 @@ html, body{
 
 .ReviewsContainer{
     /*background-color: lightgray;*/
+    
 }
 
 .ReviewTitle{
@@ -41,6 +42,9 @@ html, body{
     height: 120px;*/
     width: 550px;
     margin-left: 35px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    background-color: lightblue;
 }
 
 .ReviewInfoHead{

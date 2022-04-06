@@ -28,7 +28,7 @@
                 <div class = "ReviewLayout">
                     <% if (list.length > 0){ %>
                         <% list.forEach(i =>{ %>
-                            <a href = "/DetailReviewsPage">
+                            <a>
                                 <div class = "ReviewPanel">
                                     <div class = "ReviewInfoHead">
                                         <div class = "NameOfReview">
@@ -46,6 +46,11 @@
                                             <h3 class = "PosterNameBlurb"><%= i.poster %></h3>
                                         </div>
                                     </div>
+                                    <a href = "/UpdateReview/<%= i.id %>">Edit Review</a>
+                                    <form action = "/" method = "post">
+                                        <input type="hidden" id="id" name="id" value = "<%= i.id %>"><br><br>
+                                        <input type = "submit" value = "Delete Review">
+                                    </form>
                                 </div>
                             </a>
                         <% }) %>
